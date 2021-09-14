@@ -4,7 +4,7 @@ This repo houses solidity smart contracts to automate some company finances to m
 
 Following objectives are accomplished:
 
-* Pay your Associate-level employees quickly and easily.
+* Pay Associate-level employees quickly and easily.
 
 * Distribute profits to different tiers of employees.
 
@@ -23,7 +23,7 @@ Following objectives are accomplished:
 ## Dependencies
 Following technical components are needed to run these contracts:
 * Remix IDE for contract build, compile, deploy and transact
-* Local installation of Ganache - provides deve blockchain and 
+* Local installation of Ganache - provides dev blockchain env and 
 * MetaMask (localhost:8545) wallet - source of gas fees and funds for contract deployment and transactions
    
   
@@ -31,11 +31,13 @@ Following technical components are needed to run these contracts:
 * Clone the repo in your local directory $ git clone https://github.com/Roy-Tapas/ethereum-smartcontract
 * Open AssociateProfitSplitter.sol in Remix IDE, compile the contract and then deploy.
 * Test the deployed contract by sending a transaction as demonstrated in the following screen capture:
+  
 ![Associateprofitsplitter](Images/Associateprofitsplitter.gif)
   
     
 * Open Tieredprofitsplitter.sol in Remix IDE, compile the contract and then deploy.
-* Test the deployed contract by sending a transaction as demonstrated in the following screen capture::
+* Test the deployed contract by sending a transaction as demonstrated in the following screen capture:
+  
 ![Tieredprofitsplitter](Images/Tieredprofitsplitter.gif)
 
 
